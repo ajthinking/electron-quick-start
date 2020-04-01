@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="tailwind.min.css" rel="stylesheet">
+    <title>PipeDream Architect</title>
+  </head>
+  <body class="w-full bg-teal-500 text-white ">
+      <div class="flex flex-col h-screen justify-center">
+            <div class="flex justify-center text-5xl font-black"><span class="text-gray-800 mr-2">PipeDream</span> Architect</div>
+            <div class="flex justify-center shadow shadow-lg">
+                <img src="./bg.jpg">
+            </div>
+            
+      </div>
+    
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
