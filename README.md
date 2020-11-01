@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-# Clone this repository
+# Clone this cool repository
 git clone https://github.com/electron/electron-quick-start
 # Go into the repository
 cd electron-quick-start
